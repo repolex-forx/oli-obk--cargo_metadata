@@ -44,6 +44,96 @@
       ],
       "ast": [
         "aggregate/ast/c08e66cdf534313085ef810ce6f2e0df8a83fc50/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c08e66cdf534313085ef810ce6f2e0df8a83fc50.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "camino",
+          "ecosystem": "CARGO",
+          "version": "1.1.10",
+          "githubOrg": "camino-rs",
+          "githubRepo": "camino",
+          "githubCommit": "35f9ed0235ae78697b9adab01fe20bec8359c2f4",
+          "githubTag": "camino-1.1.10",
+          "githubUrl": "https://github.com/camino-rs/camino",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cargo-platform",
+          "ecosystem": "CARGO",
+          "version": "0.3.0",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cargo",
+          "githubCommit": "15b497b10c8261f09f15130595f696fcf29c3619",
+          "githubTag": "0.3.0",
+          "githubUrl": "https://github.com/rust-lang/cargo",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "derive_builder",
+          "ecosystem": "CARGO",
+          "version": "0.20",
+          "githubOrg": "colin-kiegel",
+          "githubRepo": "rust-derive-builder",
+          "githubUrl": "https://github.com/colin-kiegel/rust-derive-builder",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "semver",
+          "ecosystem": "CARGO",
+          "version": "1.0.26",
+          "githubOrg": "dtolnay",
+          "githubRepo": "semver",
+          "githubCommit": "3e64fdbfce78bfbd2eb97bdbdc50ce4d62c9831b",
+          "githubTag": "1.0.26",
+          "githubUrl": "https://github.com/dtolnay/semver",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.219",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "49d098debdf8b5c38bfb6868f455c6ce542c422c",
+          "githubTag": "v1.0.219",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.142",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "1731167cd5dd6358944aabf8ab8504a2f5162018",
+          "githubTag": "v1.0.142",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "2.0.12",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubCommit": "95a512669395f30cf9ae10343149726c0563ed76",
+          "githubTag": "2.0.12",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_core",
+          "ecosystem": "CARGO",
+          "version": "1.0.229",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+          "githubTag": "v1.0.229",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_core-1.0.229/src/de/mod.rs"
+        }
       ]
     }
   ],
